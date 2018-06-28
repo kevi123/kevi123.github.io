@@ -1,12 +1,212 @@
+<!--Kevin Hinojosa Bitwise mobile friendly  -->
+<!-- THis is a portolio displaying many projects i have created or worked in -->
+<!--  -->
+
+
+<!-- use this code for jumping to text -->
+<!-- <a href="#google"></a>
+<div id="google"></div> -->
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
   <title>Kevin Hinojosa Web Developer</title>
 </head>
+
 <body>
-  <h1>Hello World!</h1>
+<!-- <h1>indexpage</h1> -->
+<!-- navbar inverse makes the navbar in night mode -->
+  <nav class="navbar navbar-default navbar-inverse navbar-static-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+          <img src="img/college_pic.jpg" width="50" height="50" alt="profile/brand picture"></a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Kevin's Portfolio <span class="sr-only">(current)</span></a></li>
+          <li><a href="#projectSection">My Projects</a></li>
+          <li><a href="#educationSection">Education</a></li>
+          <li><a href="#skillSetSection">Skill Set</a></li>
+          <li><a href="#aboutSection">About Me</a></li>
+          <li><a href="#contactSection">Contact</a></li>
+          <li><a href="#">My Github</a></li>
+          <li><a href="#">My eStore</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </nav>
+            <div class="jumbotron hero">
+              <h1>Hello my name is Kevin Hinojosa</h1>
+              <h3>Software Engineer, Web Developer </h3>
+              <p>...</p>
+              <p><a class="btn btn-primary btn-lg" href="#" role="button">My Github</a></p>
+            </div><!-- /.container-fluid -->
+<div id="projectSection"><p class="title">PROJECTS</p></div>
+
+  <!--
+<a href="https://docs.google.com/document/d/1He3V53FkXPNe3qJg2OM30zmO9v_Nzfpwe-7CuZkP8Hg/edit?usp=sharing">Rasberry Pi pinball Machine</a>
+<a href="https://docs.google.com/document/d/1-rjkV0bMN8kW4kC77g1WI7x-d1WN_xjDwHNK_MrWhkg/edit?usp=sharing">Ruth goldberg Raspberry pi</a>
+<a href="https://docs.google.com/document/d/1egCuUTDMgG1KjJ4iVeJ0UUXx6HnoX77WWxm_fJR62zw/edit?usp=sharing">Automatic Turret Gun Raspsberry pi</a>
+-->
+
+<div class="container">
+<div class="row">
+  <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+    <div class="thumbnail">
+      <img src="img/connect4.jpg" alt="connect4 image">
+      <div class="caption">
+        <a class="projecttitle"href="#">Connect 4 C++ </a>
+        <p> This is a game of connect 4 made entirely in C++.It was created to demonstrate my understanding of C++ concepts such as Arrays, for/while Loops, Conditionals, Abstract Objects and more It was created soley by me, Kevin Hinojosa</p>
+        <a href="#" class="btn btn-primary" role="button">See More about this project</a>
+          <!-- <a href="#" class="btn btn-default" role="button">Button</a></p> -->
+      </div>
+    </div>
+  </div>
+  <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+    <div class="thumbnail">
+      <img src="img/turret.jpeg" alt="Turret Gun">
+      <div class="caption">
+        <a class="projecttitle" href="https://docs.google.com/document/d/1egCuUTDMgG1KjJ4iVeJ0UUXx6HnoX77WWxm_fJR62zw/edit?usp=sharing">Automatic Turret Gun Raspsberry pi</a>
+        <p> This is an automatic turrect gun, it compiled of different sensors that was able to detect human motion. It was programmed in Python and controlled by a Raspberry pi 3 unit. It was created by a team of 4 programmers one which was me, Kevin Hinojosa</p>
+        <p><a href="#" class="btn btn-primary" role="button">See More about this Project</a> </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+    <div class="thumbnail">
+      <img class="imgVertical" src="img/rube.jpg" alt="Rube Goldberg">
+      <div class="caption">
+        <a class="projecttitle" href="https://docs.google.com/document/d/1-rjkV0bMN8kW4kC77g1WI7x-d1WN_xjDwHNK_MrWhkg/edit?usp=sharing">Rube goldberg Raspberry pi</a>
+        <p> This was a rube goldberg. It was created soley by me Kevin Hinojosa</p>
+        <a href="https://docs.google.com/document/d/1-rjkV0bMN8kW4kC77g1WI7x-d1WN_xjDwHNK_MrWhkg/edit?usp=sharing" class="btn btn-primary" role="button">See More about this Project</a>
+          <!-- <a href="#" class="btn btn-default" role="button">Button</a> -->
+      </div>
+    </div>
+  </div>
+  <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+    <div class="thumbnail">
+      <img class="imgVertical" src="img/pinball.jpg" alt="Pinball Machine Raspberry pi">
+      <div class="caption">
+        <a class="projecttitle"href="https://docs.google.com/document/d/1He3V53FkXPNe3qJg2OM30zmO9v_Nzfpwe-7CuZkP8Hg/edit?usp=sharing">Rasberry Pi pinball Machine</a>
+        <p> This is a pinball machine created in Python. It was programmed using an Raspberry pi 3 and utilizing the GPIO pins. It required much soldering and . It was created soley by me Kevin Hinojosa</p>
+        <a href="https://docs.google.com/document/d/1He3V53FkXPNe3qJg2OM30zmO9v_Nzfpwe-7CuZkP8Hg/edit?usp=sharing" class="btn btn-primary" role="button">See More about this Project</a>
+          <!-- <a href="#" class="btn btn-default" role="button">Button</a> -->
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<div  class="container">
+  <p id="aboutSection" class="title">ABOUT ME</p>
+  <p class="bold">Hello, my name is Kevin Hinojosa,I am an enthusiastic front-end web developer, I have a passion for coding in various languages like C++, Phython, ARM RISC and Intelx86 CISC assembly Language, Html5, CSS. I have both formal and informal education of computer science. I have </p>
+</div>
+
+<div id="educationSection">
+<p class="title">Education</p>
+</div>
+<div class="container">
+  <div class="row">
+    <div class=" col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-2">
+      <div class="thumbnail">
+        <a href=""><img src="img/fresnostate.jpeg" height="100" width="100" alt="fresno state logo"></a>
+          <h4 class="bold">Computer science, C++, Phyton</h4>
+      </div>
+    </div>
+
+  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+    <div class="thumbnail">
+      <img src="img/fcc.png" alt="fresno city college">
+        <h4 class="bold">Fresno City College A.S. Engineering</h4>
+    </div>
+  </div>
+
+  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+    <div class="thumbnail">
+      <img src="img/geekwise_logo.png" alt="Bitwise industries">
+    <h4 class="bold">Intro to HTML5 and CSS, Mobile friendly, Javascript</h4>
+  </div>
+
+  </div>
+</div>
+
+
+<div id="skillSetSection" >
+  <p class="title">SKILL SET</p>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-1 col-sm-2 col-md-2 col-lg-2">
+        <img src="img/cpp.png" width="100 " height="100" alt="cpp logo">
+      </div>
+      <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+        <img src="img/cpp.png" width="100 " height="100" alt="cpp logo">
+      </div>
+      <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+        <img src="img/android.png" width="100 " height="100" alt="cpp logo">
+      </div>
+      <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+        <img src="img/arm-cortex.jpg" width="100 " height="100" alt="cpp logo">
+      </div>
+      <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+        <img src="img/arm.png" width="100 " height="100" alt="cpp logo">
+      </div>
+
+      <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+        <img src="img/asm.png" width="100 " height="100" alt="cpp logo">
+      </div>
+      <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+        <img src="img/c.png" width="100 " height="100" alt="cpp logo">
+      </div>
+      <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+        <img src="img/css.png" width="100 " height="100" alt="cpp logo">
+      </div>
+      <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+        <img src="img/linux.png" width="100 " height="100" alt="cpp logo">
+      </div>
+      <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+        <img src="img/index.png" width="100 " height="100" alt="cpp logo">
+      </div>
+      <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+        <img src="img/github.png" width="100 " height="100" alt="cpp logo">
+      </div>
+      <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+        <img src="img/python-logo.jpg" width="100 " height="100" alt="cpp logo">
+      </div>
+      <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+        <img src="img/raspbian.png" width="100 " height="100" alt="cpp logo">
+      </div>
+      <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+        <img src="img/solder.jpeg" width="100 " height="100" alt="cpp logo">
+      </div>
+    </div>
+    <p class="bold">html5 css c++ phyton raspberry pi Android apple linux windows github, physical computing, breadboard and soldering</p>
+  </div>
+</div>
+
+<div id="contactSection">
+  <p class="title">CONTACT ME</p>
+
+
+</div>
+
+
+
 </body>
 </html>
