@@ -3,6 +3,12 @@ h1, h2, h3, h4, h5, h6 {
     margin: center;
 }
 
+/* body {
+  opacity: 1;
+    background-image: url("../img/bits.jpg");
+    background-color: #cccccc;
+} */
+
 .bold {
     font-size:16px;
     font-weight: bold;
@@ -28,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   font-weight: bold;
   color: red;
-  margin-top: 50px
+  margin-top: 100px
 }
 
 .projecttitle
@@ -39,6 +45,13 @@ h1, h2, h3, h4, h5, h6 {
   color: blue;
 }
 
+
+/* This makes the image vertical on the projects */
 .imgVertical {
   image-orientation: from-image;
+}
+
+
+.centerImage{
+  text-align: center;
 }
