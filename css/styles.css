@@ -3,11 +3,20 @@ h1, h2, h3, h4, h5, h6 {
     margin: center;
 }
 
-/* body {
+ body {
   opacity: 1;
-    background-image: url("../img/bits.jpg");
-    background-color: #cccccc;
-} */
+  background-image: url("../img/bits.jpg");
+  background-color: #cccccc;
+}
+.background{
+  background: black;
+}
+
+.backgroundWhite
+{
+  /* opacity:.5; */
+  background: white;
+}
 
 .bold {
     font-size:16px;
