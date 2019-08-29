@@ -88,3 +88,11 @@ h1, h2, h3, h4, h5, h6 {
 .centerImage{
   text-align: center;
 }
+
+.rounded {
+  border-radius: 25px;
+}
+
+.rounded2{
+  border-radius: 15px;
+}
